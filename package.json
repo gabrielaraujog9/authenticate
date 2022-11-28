@@ -1,0 +1,26 @@
+{
+  "name": "authenticate",
+  "version": "1.0.1",
+  "description": "A authenticate system",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "start:dev": "tsx watch src/server.ts",
+    "build": "tsc --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrenoHaraujo2503/authenticate.git"
+  },
+  "keywords": [],
+  "author": "Breno Henrique <brenoharaujomorais@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrenoHaraujo2503/authenticate/issues"
+  },
+  "homepage": "https://github.com/BrenoHaraujo2503/authenticate#readme",
+  "devDependencies": {
+    "tsx": "^3.12.1",
+    "typescript": "^4.9.3"
+  }
+}
